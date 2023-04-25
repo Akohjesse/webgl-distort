@@ -1,33 +1,37 @@
+@import url("https://use.typekit.net/euz1eqv.css");
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
-  font-size: calc(100vw / 1440 * 16);
+    scroll-behavior: smooth;
+    font-size: calc(100vw / 1440 * 16);
 }
 body {
+    background-color: #23272a;
+    overflow: hidden;
 }
-h1 {
-  font-size: toRem(85);
+h1,
+h2 {
+    font-family: "acta-display", serif;
 }
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 section {
-  width: 100%;
+    width: 100%;
 }
 button {
-  outline: none;
-  font-family: inherit;
-  font-size: 1rem;
-  border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    border: none;
 }
 img {
-  -webkit-user-drag: none;
-  user-select: none;
+    -webkit-user-drag: none;
+    user-select: none;
 }
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
