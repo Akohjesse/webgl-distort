@@ -1,0 +1,21 @@
+{
+  "name": "vue-scss-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.45",
+    "splitting": "^1.0.6",
+    "gsap": "^3.11.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.59.2",
+    "vite": "^4.1.0"
+  }
+}

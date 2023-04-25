@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: calc(100vw / 1440 * 16);
+}
+body {
+}
+h1 {
+  font-size: toRem(85);
+}
+p {
+  line-height: 2rem;
+}
+section {
+  width: 100%;
+}
+button {
+  outline: none;
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+}
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
